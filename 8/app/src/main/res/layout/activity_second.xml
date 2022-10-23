@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="160dp"
+            android:background="#8356D3"
+            android:layout_height="250dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <ListView
+            android:id="@+id/listview2"
+            android:layout_marginTop="10dp"
+            android:layout_width="160dp"
+            android:background="#8356D3"
+            android:layout_height="250dp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnAdd1"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:text="add in the left list"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="7pt"
+            android:onClick="Btn"/>
+        <Button
+            android:id="@+id/btnAdd2"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:text="add in the right list"
+            android:textSize="7pt"
+            android:onClick="Btn"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="356dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:onClick="Btn"
+        android:text="Back to the first activity" />
+</LinearLayout>

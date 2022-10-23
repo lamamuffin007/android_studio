@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab5</string>
+    <string name="lv">ListView</string>
+    <string name="et">EditText</string>
+    <string name="but_1">Button 1</string>
+    <string name="but_2">Button 2</string>
+    <string name="but_3">Button 3</string>
+    <string name="but_4">Button 4</string>
+</resources>

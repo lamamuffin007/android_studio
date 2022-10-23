@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lab7</string>
+    <string name="btnOpen">Open activity</string>
+</resources>

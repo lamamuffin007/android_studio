@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab9</string>
+    <string name="int_element">1</string>
+    <string name="str1_element">something</string>
+    <string name="str2_element">something</string>
+    <string name="preferences">settings</string>
+</resources>

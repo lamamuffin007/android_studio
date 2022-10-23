@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StartApplication6</string>
+    <string name="setAct">Open second activity</string>
+    <string name="thAct">Open third activity</string>
+
+    <string name="second">second activity</string>
+    <string name="third">third activity</string>
+    <string name="back">back</string>
+</resources>

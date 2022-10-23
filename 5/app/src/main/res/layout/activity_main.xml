@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lw"
+        android:background="@color/lw"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="third" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but_1"
+            android:onClick="onAdd"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/but_2"
+            android:onClick="onEdit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/but_3"
+            android:onClick="onDel"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Del" />
+
+        <Button
+            android:id="@+id/but_4"
+            android:onClick="onClear"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Clear" />
+    </LinearLayout>
+</LinearLayout>
